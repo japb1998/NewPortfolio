@@ -372,7 +372,49 @@ h6 {
 	border:1px solid var(--borderColor);
 	font-size: 14px;
 }
+.social-media{
+    display: flex;
+    justify-content: center;
+}
 
+.instagram {
+    padding: 5px;
+    border: black solid 1px;
+    background-color: #e4405f;
+    color: white;
+}
+.instagram a {
+    color: white;
+}
+.linkedin {
+    padding: 5px;
+    border: black solid 1px;
+    color:white;
+    background-color:#378fe9;
+}
+.linkedin a {
+    color: white;
+}
+.git {
+    padding: 5px;
+    border: black solid 1px;
+    background-color:white;
+}
+.git a {
+    color: black;
+}
+a:link {
+    text-decoration: none;
+  }
+  a:active {
+      text-decoration: none;
+  } 
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  
 
 #submit-btn{
 	margin-top: 10px;
