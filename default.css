@@ -425,6 +425,17 @@ a:link {
 	background-color: var(--buttonColor);
 	border:none;
 }
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    font-family: 'Roboto Mono', monospace;
+}
+.contact-icon {
+    margin: 10px;
+}
+
+
 
 
 
@@ -445,5 +456,13 @@ a:link {
     }
     .right-column{
         justify-content: center;
+    }
+    .instagram,.linkedin,.git{
+        display: none;
+    }
+
+    .contact-info {
+        display: block;
+        margin: 0 auto;
     }
 }
