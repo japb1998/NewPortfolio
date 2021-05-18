@@ -426,10 +426,14 @@ a:link {
 	border:none;
 }
 .contact-info {
+    padding: 5px;
+    border: black 1px solid;
     display: flex;
     justify-content: space-between;
-    margin: 10px;
+    /* margin: 10px; */
     font-family: 'Roboto Mono', monospace;
+    background-color: #eee;
+    
 }
 .contact-icon {
     margin: 10px;
